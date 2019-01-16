@@ -1,0 +1,25 @@
+set:
+  # 是否开启调试模式，消息只会在终端输出，不会推送到微信
+  debug: False
+  # 发送消息的时间，24小时制
+  hour: 6
+  # 发送人的昵称
+  send_name: 'XX'
+  # 接收人的昵称
+  receive_name: 'XX'
+
+city:
+  # 城市名称，暂时无用
+  name: '南京'
+  # 城市代号 其他城市请参考 city.json 文件
+  code: '101190101'
+  # name: '上海'
+  # code: '101020100'
+
+pushbear:
+  # 接口地址
+  api: 'https://pushbear.ftqq.com/sub'
+  # 消息标题
+  title: '天气提醒'
+  # 申请地址 https://pushbear.ftqq.com
+  key: ''
