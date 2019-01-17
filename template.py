@@ -1,6 +1,11 @@
 # -*- coding: utf8 -*-
 __author__ = 'Lrony'
 from config import _get_yaml
+import sys
+
+
+reload(sys)
+sys.setdefaultencoding('utf8')
 
 conf = _get_yaml()
 receive_name = conf['set']['receive_name'].strip()
