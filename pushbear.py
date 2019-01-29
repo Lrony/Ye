@@ -2,7 +2,6 @@
 __author__ = 'Lrony'
 from config import _get_yaml
 import requests
-import urllib
 
 
 conf = _get_yaml()
