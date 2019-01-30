@@ -30,7 +30,7 @@ while True:
 				message = '### 天气状况\n\n'
 				message = (message + weather.getWeather() + '\n\n')
 
-			message = (message + '### 喝水进度（' + str(index) + '/' + str(len(tips)) + '）\n\n')
+			message = (message + '### 喝水进度（' + str(index + 1) + '/' + str(len(tips)) + '）\n\n')
 			message = (message + tip['msg'] + '\n\n')
 
 			if debug:
